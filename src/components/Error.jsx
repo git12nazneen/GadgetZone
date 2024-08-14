@@ -14,7 +14,7 @@ const Error = () => {
             </h1>
             <p className="mt-4 text-gray-500 dark:text-gray-400">
               Sorry, the page you are looking for doesn't exist.Here are some
-              helpful links:
+              helpful links: 
             </p>
 
             <div className="flex items-center mt-6 gap-x-3">

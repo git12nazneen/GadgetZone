@@ -82,7 +82,7 @@ const Login = () => {
   }
 
   return (
-    <div className="bg-[#f14902] my-20">
+    <div className="bg-[#f14902] mt-20">
         <Pagetitle title='Login'></Pagetitle>
       <div className="flex flex-col items-center py-6 lg:h-[37rem] lg:flex-row mx-10">
         <div className="lg:w-1/2">

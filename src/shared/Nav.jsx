@@ -30,7 +30,7 @@ const Nav = () => {
       <NavLink 
         to="/" 
         className={({ isActive }) =>
-          isActive ? 'text-[#f14902] border-b-2 border-[#f14902] font-bold' : 'my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0'
+          isActive ? 'text-[#f14902] border-b-2 border-[#f14902] font-bold' : 'my-2 text-gray-100 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0'
         }
       >
         Home
@@ -39,7 +39,7 @@ const Nav = () => {
       <NavLink 
         to="/room" 
         className={({ isActive }) =>
-          isActive ? 'text-[#f14902] border-b-2 border-[#f14902] font-bold' : 'my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0'
+          isActive ? 'text-[#f14902] border-b-2 border-[#f14902] font-bold' : 'my-2 text-gray-100 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0'
         }
       >
         Rooms
@@ -50,7 +50,7 @@ const Nav = () => {
   );
   return (
     <div className="bg-opacity-60 fixed top-0 left-0 right-0 z-50 shadow-lg">
-      <nav className="relative bg-gray-200 shadow dark:bg-gray-800 ">
+      <nav className="relative bg-black shadow dark:bg-gray-800 ">
         <div className="container px-6 mx-auto md:flex md:justify-between md:items-center h-20">
           <div className="flex items-center justify-between">
             <a href="#">
@@ -151,7 +151,7 @@ const Nav = () => {
                   </div>
                 ) : (
                   <Link to="/login">
-                    <a className="px-7 py-3 bg-black rounded-2xl text-white hover:bg-[#f14902] hover:text-black">
+                    <a className="px-7 py-3 hover:bg-gray-300 rounded-2xl  hover:text-white bg-[#f14902] text-black">
                       Login
                     </a>
                   </Link>

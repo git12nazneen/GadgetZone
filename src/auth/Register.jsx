@@ -81,7 +81,7 @@ const Register = () => {
     
   return (
     <div className="bg-gray-200">
-    <div className="max-w-6xl mx-auto my-20 ">
+    <div className="max-w-6xl mx-auto pt-5 pb-5 mt-20 ">
       <Pagetitle title='Register'></Pagetitle>
       <section className=" dark:bg-gray-900">
         <div className="flex justify-center m-5 p-5 rounded-md border border-[#f14902] bg-white">
