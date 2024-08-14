@@ -1,5 +1,4 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import "../login/login.css";
 import { useForm } from "react-hook-form";
 import swal from "sweetalert";
 import { getAuth } from "firebase/auth";
@@ -83,7 +82,7 @@ const Login = () => {
   }
 
   return (
-    <div className="pattern">
+    <div className="bg-[#f14902] my-20">
         <Pagetitle title='Login'></Pagetitle>
       <div className="flex flex-col items-center py-6 lg:h-[37rem] lg:flex-row mx-10">
         <div className="lg:w-1/2">
@@ -92,7 +91,7 @@ const Login = () => {
           </h2>
 
           <h3 className="mt-2 text-2xl font-semibold text-gray-100">
-            Hello <span className="text-yellow-400">Guest</span>
+            Hello <span className="text-black">Guest</span>
           </h3>
 
           <p className="mt-4 text-gray-100">
@@ -110,14 +109,14 @@ const Login = () => {
               <form onSubmit={handleSubmit(onSubmit)} action="#">
                 <div className="mt-4">
                   <input
-                    className="block w-full px-4 py-2 text-gray-700 placeholder-gray-400 bg-white border rounded-md dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-500 focus:border-yellow-400 dark:focus:border-yellow-300 focus:ring-opacity-40 focus:ring-yellow-300 focus:outline-none focus:ring"
+                    className="block w-full px-4 py-2 text-gray-700 placeholder-gray-400 bg-white border rounded-md dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-500 focus:border-black dark:focus:border-black focus:ring-opacity-40 focus:ring-black focus:outline-none focus:ring"
                     type="email"
                     placeholder="Email address"
                     aria-label="Email address"
                     {...register("email", { required: true })}
                   />
                   <input
-                    className="block w-full px-4 py-2 mt-4 text-gray-700 placeholder-gray-400 bg-white border rounded-md dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-500 focus:border-yellow-400 dark:focus:border-yellow-300 focus:ring-opacity-40 focus:ring-yellow-300 focus:outline-none focus:ring"
+                    className="block w-full px-4 py-2 mt-4 text-gray-700 placeholder-gray-400 bg-white border rounded-md dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-500 focus:border-black dark:focus:border-black focus:ring-opacity-40 focus:ring-black focus:outline-none focus:ring"
                     type="password"
                     placeholder="Password"
                     aria-label="Password"
@@ -133,7 +132,7 @@ const Login = () => {
                     Forget Password?
                   </a>
 
-                  <button className="px-6 py-2 font-medium text-white transition-colors duration-300 transform bg-yellow-600 rounded-md hover:bg-yellow-400 dark:hover:bg-yellow-400 focus:outline-none focus:bg-yellow-400 dark:focus:bg-yellow-300">
+                  <button className="px-6 py-2 font-medium text-white transition-colors duration-300 transform bg-black rounded-md hover:bg-black dark:hover:bg-black focus:outline-none focus:bg-black dark:focus:bg-black">
                     Sign In
                   </button>
                 </div>
@@ -154,7 +153,7 @@ const Login = () => {
                 <div className="flex items-center mt-6 mb-5 -mx-2">
                   <button onClick={() => handleSocialLogin(googleLogin)}
                     type="button"
-                    className="flex items-center justify-center w-full px-6 py-2 mx-2 text-sm font-medium text-white transition-colors duration-300 transform bg-yellow-600 rounded-lg hover:bg-yellow-400 focus:bg-yellow-400 focus:outline-none"
+                    className="flex items-center justify-center w-full px-6 py-2 mx-2 text-sm font-medium text-white transition-colors duration-300 transform bg-black rounded-lg hover:bg-black focus:bg-black focus:outline-none"
                   >
                     <svg className="w-4 h-4 mx-2 fill-current" viewBox="0 0 24 24">
                       <path d="M12.24 10.285V14.4h6.806c-.275 1.765-2.056 5.174-6.806 5.174-4.095 0-7.439-3.389-7.439-7.574s3.345-7.574 7.439-7.574c2.33 0 3.891.989 4.785 1.849l3.254-3.138C18.189 1.186 15.479 0 12.24 0c-6.635 0-12 5.365-12 12s5.365 12 12 12c6.926 0 11.52-4.869 11.52-11.726 0-.788-.085-1.39-.189-1.989H12.24z"></path>

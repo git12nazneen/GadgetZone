@@ -6,7 +6,7 @@ import { useState } from "react";
 import Pagetitle from "../components/PageTitle";
 import useAuth from "../hooks/useAuth";
 import { app } from "../../firebase.config";
-
+import registerImg from '../assets/reg-img.jpg'
 
 const Register = () => {
   const {createUser,  updateUserProfile}= useAuth()
@@ -80,15 +80,16 @@ const Register = () => {
     }
     
   return (
-    <div className="max-w-6xl mx-auto my-16">
+    <div className="bg-gray-200">
+    <div className="max-w-6xl mx-auto my-20 ">
       <Pagetitle title='Register'></Pagetitle>
-      <section className="bg-white dark:bg-gray-900">
-        <div className="flex justify-center">
+      <section className=" dark:bg-gray-900">
+        <div className="flex justify-center m-5 p-5 rounded-md border border-[#f14902] bg-white">
           <div
-            className="hidden bg-cover lg:block lg:w-2/5"
+            className="hidden bg-cover bg-center  rounded-md  lg:block lg:w-2/5"
             style={{
               backgroundImage:
-                "url('https://images.pexels.com/photos/3127880/pexels-photo-3127880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
+                `url(${registerImg})`,
             }}
           ></div>
 
@@ -114,7 +115,7 @@ const Register = () => {
                   <input
                     type="text"
                     placeholder="John"
-                    className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-yellow-400 dark:focus:border-yellow-400 focus:ring-yellow-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                    className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-[#f14902] dark:focus:border-[#f14902] focus:ring-[#f14902] focus:outline-none focus:ring focus:ring-opacity-40"
                     {...register("name", { required: true })}
                   />
                 </div>
@@ -126,7 +127,7 @@ const Register = () => {
                   <input
                     type="email"
                     placeholder="johnsnow@example.com"
-                    className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-yellow-400 dark:focus:border-yellow-400 focus:ring-yellow-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                    className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-[#f14902] dark:focus:border-[#f14902] focus:ring-[#f14902] focus:outline-none focus:ring focus:ring-opacity-40"
                     {...register("email", { required: true })}
                   />
                 </div>
@@ -138,14 +139,12 @@ const Register = () => {
                   <input
                     type="password"
                     placeholder="Enter your password"
-                    className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-yellow-400 dark:focus:border-yellow-400 focus:ring-yellow-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                    className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-[#f14902] dark:focus:border-[#f14902] focus:ring-[#f14902] focus:outline-none focus:ring focus:ring-opacity-40"
                     {...register("password", { required: true })}
                   />
                    <span
                     className="absolute top-3 right-2"
-                    // onClick={() => setShowpassword(!showPassword)}
                   >
-                    {/* {showPassword ? <IoEyeOutline /> : <FaRegEyeSlash />} */}
                   </span>
                 </div>
 
@@ -156,12 +155,12 @@ const Register = () => {
                   <input
                     type="text"
                     placeholder="Photo url"
-                    className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-yellow-400 dark:focus:border-yellow-400 focus:ring-yellow-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                    className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-[#f14902] dark:focus:border-[#f14902] focus:ring-[#f14902] focus:outline-none focus:ring focus:ring-opacity-40"
                     {...register("photo", { required: true })}
                   />
                 </div>
 
-                <button className="flex items-center justify-between w-full px-6 py-3 text-sm tracking-wide text-black capitalize transition-colors duration-300 transform bg-yellow-400 rounded-lg hover:bg-yellow-400 focus:outline-none focus:ring focus:ring-yellow-300 focus:ring-opacity-50">
+                <button className="flex items-center justify-between w-full px-6 py-3 text-sm tracking-wide text-black capitalize transition-colors duration-300 transform bg-[#f14902] rounded-lg hover:bg-[#f14902] focus:outline-none focus:ring focus:ring-yellow-300 focus:ring-opacity-50">
                   <span>Register </span>
 
                   <svg
@@ -180,7 +179,7 @@ const Register = () => {
                 <br />
                 <p className="text-center my-4 text-gray-800">
                   Already have an account{" "}
-                  <Link className="text-purple-600 font-bold" to="/login">
+                  <Link className="text-[#f14902] font-bold" to="/login">
                     Login
                   </Link>
                 </p>
@@ -189,6 +188,7 @@ const Register = () => {
           </div>
         </div>
       </section>
+    </div>
     </div>
   );
 };
