@@ -1,0 +1,124 @@
+[
+    {
+            "name": "Sergel 20",
+      "image": "https://i.ibb.co/P5LwtLx/sergel.jpg",
+      "description": "Esomeprazole Magnesium Trihydrate",
+      "company": "Healthcare Pharmaceuticals Ltd.",
+      "capsuleInfo": "10 Capsules",
+      "packet":"10",
+      "price": "64.40",
+      "originalPrice": "70.00",
+      "discount": "8% OFF",
+      "doses": ["20mg", "40mg", "500mg"]
+    },
+    {
+            "name": "Example Product",
+      "image": "https://i.ibb.co/P5LwtLx/sergel.jpg",
+      "description": "Example Description",
+      "company": "Example Company",
+      "capsuleInfo": "15 Capsules",
+      "packet":"10",
+      "price": "80.00",
+      "originalPrice": "90.00",
+      "discount": "10% OFF",
+      "doses": ["50mg", "100mg", "150mg"]
+    },
+    {
+            "name": "Paracetamol",
+      "image": "https://i.ibb.co/P5LwtLx/sergel.jpg",
+      "description": "Paracetamol",
+      "company": "ABC Pharmaceuticals",
+      "capsuleInfo": "20 Tablets",
+      "packet":"10",
+      "price": "20.00",
+      "originalPrice": "25.00",
+      "discount": "20% OFF",
+      "doses": ["500mg", "1000mg", "600mg"]
+    },
+    {
+            "name": "Ibuprofen",
+      "image": "https://i.ibb.co/P5LwtLx/sergel.jpg",
+      "description": "Ibuprofen",
+      "company": "XYZ Pharma",
+      "capsuleInfo": "30 Tablets",
+      "packet":"10",
+      "price": "30.00",
+      "originalPrice": "35.00",
+      "discount": "15% OFF",
+      "doses": ["200mg", "400mg", "600mg"]
+    },
+    {
+            "name": "Aspirin",
+      "image": "https://i.ibb.co/P5LwtLx/sergel.jpg",
+      "description": "Aspirin",
+      "company": "HealthFirst Inc.",
+      "capsuleInfo": "25 Tablets",
+      "packet":"10",
+      "price": "15.00",
+      "originalPrice": "18.00",
+      "discount": "16% OFF",
+      "doses": ["75mg", "150mg", "300mg"]
+    },
+    {
+            "name": "Cetrizine",
+      "image": "https://i.ibb.co/P5LwtLx/sergel.jpg",
+      "description": "Cetrizine Hydrochloride",
+      "company": "Wellness Pharma",
+      "capsuleInfo": "15 Tablets",
+      "packet":"10",
+      "price": "10.00",
+      "originalPrice": "12.00",
+      "discount": "17% OFF",
+      "doses": ["10mg", "20mg", "600mg"]
+    },
+    {
+            "name": "Metformin",
+      "image": "https://i.ibb.co/P5LwtLx/sergel.jpg",
+      "description": "Metformin Hydrochloride",
+      "company": "Diabetes Care Ltd.",
+      "capsuleInfo": "20 Tablets",
+      "packet":"10",
+      "price": "25.00",
+      "originalPrice": "28.00",
+      "discount": "11% OFF",
+      "doses": ["500mg", "850mg", "600mg"]
+    },
+    {
+            "name": "Lisinopril",
+      "image": "https://i.ibb.co/P5LwtLx/sergel.jpg",
+      "description": "Lisinopril",
+      "company": "Heart Health Pharmaceuticals",
+      "capsuleInfo": "14 Tablets",
+      "packet":"10",
+      "price": "35.00",
+      "originalPrice": "40.00",
+      "discount": "12% OFF",
+      "doses": ["10mg", "20mg", "600mg"]
+    },
+    {
+            "name": "Omeprazole",
+      "image": "https://i.ibb.co/P5LwtLx/sergel.jpg",
+      "description": "Omeprazole",
+      "company": "Stomach Care Pharma",
+      "capsuleInfo": "28 Capsules",
+      "packet":"10",
+      "price": "40.00",
+      "originalPrice": "45.00",
+      "discount": "11% OFF",
+      "doses": ["20mg", "40mg", "600mg"]
+    },
+    {
+      
+      "name": "Amoxicillin",
+      "image": "https://i.ibb.co/P5LwtLx/sergel.jpg",
+      "description": "Amoxicillin",
+      "company": "Antibiotic Pharma",
+      "capsuleInfo": "30 Capsules",
+      "packet":"10",
+      "price": "50.00",
+      "originalPrice": "55.00",
+      "discount": "9% OFF",
+      "doses": ["250mg", "500mg", "600mg"]
+    }
+  ]
+  

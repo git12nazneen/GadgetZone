@@ -6,6 +6,7 @@ import Error from "../components/Error";
 import Home from "../pages/Home";
 import Login from "../auth/Login";
 import Register from "../auth/Register";
+import Card from "../components/Card";
 
 const router = createBrowserRouter([
     {
@@ -24,7 +25,12 @@ const router = createBrowserRouter([
         {
           path:'/register',
           element:<Register/>
-        }
+        },
+        {
+          path:'/products/:id',
+          element:<Card></Card>,
+          loader:({params})=>fetch(`http://localhost:5000/products/${params.id}`)
+        },
       ]
     },
   ]);
