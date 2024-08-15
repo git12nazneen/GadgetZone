@@ -32,9 +32,9 @@ const GadgetSwiper = () => {
     return <div>Error loading products</div>;
   }
   return (
-    <div>
-      <div className="lg:max-w-4xl mx-auto">
-        <p className="text-sm text-orange-600">LATEST PRODUCT</p>
+    <div className="bg-slate-100 py-10">
+      <div className="lg:max-w-4xl mx-auto my-8 text-center ">
+        <p className="text-sm text-orange-600 font-bold">LATEST PRODUCT</p>
         <h1 className="text-4xl font-bold">Explore Our New Arrival</h1>
       </div>
       <div className="my-10 mx-auto w-auto lg:max-w-6xl">
