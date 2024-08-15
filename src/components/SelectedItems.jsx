@@ -2,7 +2,7 @@ import SelectedCard from "./SelectedCard";
 import { IoCheckmarkSharp } from "react-icons/io5";
 const SelectedItems = () => {
   return (
-    <div className="bg-[#f14902] py-10">
+    <div className="bg-[#f14902] py-20">
       <div className="max-w-5xl mx-auto bg-gray-100 rounded-md py-10 px-6 lg:px-10">
         <div className="flex flex-col lg:flex-row gap-6">
           {/* Text Section */}

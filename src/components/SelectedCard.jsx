@@ -1,78 +1,56 @@
-
 const SelectedCard = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
-              {/* Example Card */}
-              <div className="w-full overflow-hidden bg-white hover:bg-gray-800 rounded-lg shadow-lg dark:bg-gray-800 group">
-                <img
-                  className="object-cover hover:bg-black hover:opacity-35 object-center w-full h-56"
-                  src="https://via.placeholder.com/150"
-                  alt="Gadget Pro Max"
-                />
-                <div className="flex items-center mt-4 text-gray-700 dark:text-gray-200 px-6 pt-4 pb-2 group-hover:text-white">
-                  <h1 className="text-xl font-semibold text-gray-800 dark:text-white group-hover:text-white">
-                    Gadget Pro Max
-                  </h1>
-                  <div className="relative inline-block text-left">
-                    <h1 className="px-2 text-gray-600 text-sm cursor-pointer group-hover:text-white">
-                      Capsule- (20mg)
-                    </h1>
-                  </div>
-                </div>
-                <div className="px-6 py-2 group-hover:text-white">
-                  <h1 className="text-orange-600 dark:text-white group-hover:text-white">
-                    High-performance gadget 
-                  </h1>
-                  <p className="py-2 text-gray-600 dark:text-gray-400 group-hover:text-white">
-                    GadgetCo
-                  </p>
-                  <p className="text-gray-600 font-light text-sm group-hover:text-white">
-                    1 packet
-                  </p>
-                  <div className="flex gap-7 py-3">
-                    <h2 className="text-sm font-bold group-hover:text-white">
-                      ৳1500
-                    </h2>
-                  
-                  </div>
-                </div>
-              </div>
-              {/* Duplicate Card for Demonstration */}
-              <div className="w-full overflow-hidden bg-white hover:bg-gray-800 rounded-lg shadow-lg dark:bg-gray-800 group">
-                <img
-                  className="object-cover hover:bg-black hover:opacity-35 object-center w-full h-56"
-                  src="https://via.placeholder.com/150"
-                  alt="Gadget Pro Max"
-                />
-                <div className="flex items-center mt-4 text-gray-700 dark:text-gray-200 px-6 pt-4 pb-2 group-hover:text-white">
-                  <h1 className="text-xl font-semibold text-gray-800 dark:text-white group-hover:text-white">
-                    Gadget Pro Max
-                  </h1>
-                  <div className="relative inline-block text-left">
-                    <h1 className="px-2 text-gray-600 text-sm cursor-pointer group-hover:text-white">
-                      Capsule- (20mg)
-                    </h1>
-                  </div>
-                </div>
-                <div className="px-6 py-2 group-hover:text-white">
-                  <h1 className="text-orange-600 dark:text-white group-hover:text-white">
-                    High-performance gadget 
-                  </h1>
-                  <p className="py-2 text-gray-600 dark:text-gray-400 group-hover:text-white">
-                    GadgetCo
-                  </p>
-                  <p className="text-gray-600 font-light text-sm group-hover:text-white">
-                    1 packet
-                  </p>
-                  <div className="flex gap-7 py-3">
-                    <h2 className="text-sm font-bold group-hover:text-white">
-                      ৳1500
-                    </h2>
-                   
-                  </div>
-                </div>
-              </div>
-            </div>
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 pt-8">
+      {/* Example Card */}
+      <div className="max-w-xs overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+        <div className="px-4 py-2">
+          <h1 className="text-xl font-bold text-gray-800 uppercase dark:text-white">
+            NIKE AIR
+          </h1>
+          <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos
+            quidem sequi illum facere recusandae voluptatibus
+          </p>
+        </div>
+
+        <img
+          className="object-cover w-full h-48 mt-2"
+          src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=320&q=80"
+          alt="NIKE AIR"
+        />
+
+        <div className="flex items-center justify-between px-4 py-2 bg-orange-600">
+          <h1 className="text-lg font-bold text-white">$129</h1>
+          <button className="px-2 py-1 text-xs font-semibold text-gray-900 uppercase transition-colors duration-300 transform bg-white rounded hover:bg-gray-200 focus:bg-gray-400 focus:outline-none">
+            Add to cart
+          </button>
+        </div>
+      </div>
+      <div className="max-w-xs overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+        <div className="px-4 py-2">
+          <h1 className="text-xl font-bold text-gray-800 uppercase dark:text-white">
+            NIKE AIR
+          </h1>
+          <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos
+            quidem sequi illum facere recusandae voluptatibus
+          </p>
+        </div>
+
+        <img
+          className="object-cover w-full h-48 mt-2"
+          src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=320&q=80"
+          alt="NIKE AIR"
+        />
+
+        <div className="flex items-center justify-between px-4 py-2 bg-orange-600">
+          <h1 className="text-lg font-bold text-white">$129</h1>
+          <button className="px-2 py-1 text-xs font-semibold text-gray-900 uppercase transition-colors duration-300 transform bg-white rounded hover:bg-gray-200 focus:bg-gray-400 focus:outline-none">
+            Add to cart
+          </button>
+        </div>
+      </div>
+    </div>
   );
 };
 
