@@ -31,7 +31,7 @@ const Login = () => {
 
     signIn(email, password)
   // 1
-  axios.post( 'http://localhost:5000/jwt' ,user, {withCredentials: true})
+  axios.post( 'https://server-two-sage-80.vercel.app/jwt' ,user, {withCredentials: true})
     .then(res=>{
         if(res.data.success){
           swal({text:'success login',  icon: "success",})
@@ -59,7 +59,7 @@ const Login = () => {
 
         // Make the axios post request
         axios
-          .post("http://localhost:5000/jwt", user, { withCredentials: true })
+          .post("https://server-two-sage-80.vercel.app/jwt", user, { withCredentials: true })
           .then((res) => {
             if (res.data.success) {
               swal({ text: "Success login", icon: "success" });

@@ -1,124 +1,412 @@
 [
-    {
-            "name": "Sergel 20",
-      "image": "https://i.ibb.co/P5LwtLx/sergel.jpg",
-      "description": "Esomeprazole Magnesium Trihydrate",
-      "company": "Healthcare Pharmaceuticals Ltd.",
-      "capsuleInfo": "10 Capsules",
-      "packet":"10",
-      "price": "64.40",
-      "originalPrice": "70.00",
-      "discount": "8% OFF",
-      "doses": ["20mg", "40mg", "500mg"]
-    },
-    {
-            "name": "Example Product",
-      "image": "https://i.ibb.co/P5LwtLx/sergel.jpg",
-      "description": "Example Description",
-      "company": "Example Company",
-      "capsuleInfo": "15 Capsules",
-      "packet":"10",
-      "price": "80.00",
-      "originalPrice": "90.00",
-      "discount": "10% OFF",
-      "doses": ["50mg", "100mg", "150mg"]
-    },
-    {
-            "name": "Paracetamol",
-      "image": "https://i.ibb.co/P5LwtLx/sergel.jpg",
-      "description": "Paracetamol",
-      "company": "ABC Pharmaceuticals",
-      "capsuleInfo": "20 Tablets",
-      "packet":"10",
-      "price": "20.00",
-      "originalPrice": "25.00",
-      "discount": "20% OFF",
-      "doses": ["500mg", "1000mg", "600mg"]
-    },
-    {
-            "name": "Ibuprofen",
-      "image": "https://i.ibb.co/P5LwtLx/sergel.jpg",
-      "description": "Ibuprofen",
-      "company": "XYZ Pharma",
-      "capsuleInfo": "30 Tablets",
-      "packet":"10",
-      "price": "30.00",
-      "originalPrice": "35.00",
-      "discount": "15% OFF",
-      "doses": ["200mg", "400mg", "600mg"]
-    },
-    {
-            "name": "Aspirin",
-      "image": "https://i.ibb.co/P5LwtLx/sergel.jpg",
-      "description": "Aspirin",
-      "company": "HealthFirst Inc.",
-      "capsuleInfo": "25 Tablets",
-      "packet":"10",
-      "price": "15.00",
-      "originalPrice": "18.00",
-      "discount": "16% OFF",
-      "doses": ["75mg", "150mg", "300mg"]
-    },
-    {
-            "name": "Cetrizine",
-      "image": "https://i.ibb.co/P5LwtLx/sergel.jpg",
-      "description": "Cetrizine Hydrochloride",
-      "company": "Wellness Pharma",
-      "capsuleInfo": "15 Tablets",
-      "packet":"10",
-      "price": "10.00",
-      "originalPrice": "12.00",
-      "discount": "17% OFF",
-      "doses": ["10mg", "20mg", "600mg"]
-    },
-    {
-            "name": "Metformin",
-      "image": "https://i.ibb.co/P5LwtLx/sergel.jpg",
-      "description": "Metformin Hydrochloride",
-      "company": "Diabetes Care Ltd.",
-      "capsuleInfo": "20 Tablets",
-      "packet":"10",
-      "price": "25.00",
-      "originalPrice": "28.00",
-      "discount": "11% OFF",
-      "doses": ["500mg", "850mg", "600mg"]
-    },
-    {
-            "name": "Lisinopril",
-      "image": "https://i.ibb.co/P5LwtLx/sergel.jpg",
-      "description": "Lisinopril",
-      "company": "Heart Health Pharmaceuticals",
-      "capsuleInfo": "14 Tablets",
-      "packet":"10",
-      "price": "35.00",
-      "originalPrice": "40.00",
-      "discount": "12% OFF",
-      "doses": ["10mg", "20mg", "600mg"]
-    },
-    {
-            "name": "Omeprazole",
-      "image": "https://i.ibb.co/P5LwtLx/sergel.jpg",
-      "description": "Omeprazole",
-      "company": "Stomach Care Pharma",
-      "capsuleInfo": "28 Capsules",
-      "packet":"10",
-      "price": "40.00",
-      "originalPrice": "45.00",
-      "discount": "11% OFF",
-      "doses": ["20mg", "40mg", "600mg"]
-    },
-    {
-      
-      "name": "Amoxicillin",
-      "image": "https://i.ibb.co/P5LwtLx/sergel.jpg",
-      "description": "Amoxicillin",
-      "company": "Antibiotic Pharma",
-      "capsuleInfo": "30 Capsules",
-      "packet":"10",
-      "price": "50.00",
-      "originalPrice": "55.00",
-      "discount": "9% OFF",
-      "doses": ["250mg", "500mg", "600mg"]
-    }
-  ]
-  
+  {
+    "img": "https://images.pexels.com/photos/3394659/pexels-photo-3394659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Wireless Bluetooth Headphones",
+    "prevPrice": "$120.00",
+    "newPrice": "90",
+    "company": "Sony",
+    "star": 4.5,
+    "brand_name": "Sony",
+    "category": "headphones"
+  },
+  {
+    "img": "https://images.pexels.com/photos/20071323/pexels-photo-20071323/free-photo-of-bluetooth-speaker-with-lamp.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Portable Bluetooth Speaker",
+    "prevPrice": "$80.00",
+    "newPrice": "60",
+    "company": "JBL",
+    "star": 4.2,
+    "brand_name": "JBL",
+    "category": "speakers"
+  },
+  {
+    "img": "https://images.pexels.com/photos/2861929/pexels-photo-2861929.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Smartwatch Fitness Tracker",
+    "prevPrice": "$150.00",
+    "newPrice": "110",
+    "company": "Fitbit",
+    "star": 4.7,
+    "brand_name": "Fitbit",
+    "category": "wearables"
+  },
+  {
+    "img": "https://images.pexels.com/photos/2115256/pexels-photo-2115256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Gaming Mouse with RGB Lighting",
+    "prevPrice": "$70.00",
+    "newPrice": "50",
+    "company": "Logitech",
+    "star": 4.6,
+    "brand_name": "Logitech",
+    "category": "gaming"
+  },
+  {
+    "img": "https://images.pexels.com/photos/682933/pexels-photo-682933.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Mechanical Gaming Keyboard",
+    "prevPrice": "$100.00",
+    "newPrice": "80",
+    "company": "Corsair",
+    "star": 4.8,
+    "brand_name": "Corsair",
+    "category": "gaming"
+  },
+  {
+    "img": "https://images.pexels.com/photos/3205735/pexels-photo-3205735.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Smart Home Security Camera",
+    "prevPrice": "$130.00",
+    "newPrice": "100",
+    "company": "Ring",
+    "star": 4.4,
+    "brand_name": "Ring",
+    "category": "security"
+  },
+  {
+    "img": "https://images.pexels.com/photos/3780681/pexels-photo-3780681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Noise-Cancelling Earbuds",
+    "prevPrice": "$180.00",
+    "newPrice": "150",
+    "company": "Bose",
+    "star": 4.9,
+    "brand_name": "Bose",
+    "category": "headphones"
+  },
+  {
+    "img": "https://images.pexels.com/photos/1571458/pexels-photo-1571458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "4K Ultra HD Smart TV",
+    "prevPrice": "$600.00",
+    "newPrice": "500",
+    "company": "Samsung",
+    "star": 4.7,
+    "brand_name": "Samsung",
+    "category": "television"
+  },
+  {
+    "img": "https://images.pexels.com/photos/12569426/pexels-photo-12569426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Smartphone with Triple Camera",
+    "prevPrice": "$900.00",
+    "newPrice": "850",
+    "company": "Apple",
+    "star": 4.8,
+    "brand_name": "Apple",
+    "category": "smartphones"
+  },
+  {
+    "img": "https://images.pexels.com/photos/40739/mobile-phone-smartphone-tablet-white-40739.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Tablet with Stylus",
+    "prevPrice": "$400.00",
+    "newPrice": "350",
+    "company": "Microsoft",
+    "star": 4.5,
+    "brand_name": "Microsoft",
+    "category": "tablets"
+  },
+  {
+    "img": "https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Laptop with 16GB RAM",
+    "prevPrice": "$1,200.00",
+    "newPrice": "1,100",
+    "company": "Dell",
+    "star": 4.7,
+    "brand_name": "Dell",
+    "category": "laptops"
+  },
+  {
+    "img": "https://images.pexels.com/photos/11553188/pexels-photo-11553188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Portable SSD 1TB",
+    "prevPrice": "$150.00",
+    "newPrice": "120",
+    "company": "SanDisk",
+    "star": 4.8,
+    "brand_name": "SanDisk",
+    "category": "storage"
+  },
+  {
+    "img": "https://images.pexels.com/photos/336232/pexels-photo-336232.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Drone with 4K Camera",
+    "prevPrice": "$800.00",
+    "newPrice": "750",
+    "company": "DJI",
+    "star": 4.6,
+    "brand_name": "DJI",
+    "category": "drones"
+  },
+  {
+    "img": "https://images.pexels.com/photos/753859/pexels-photo-753859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Action Camera 4K",
+    "prevPrice": "$300.00",
+    "newPrice": "250",
+    "company": "GoPro",
+    "star": 4.7,
+    "brand_name": "GoPro",
+    "category": "cameras"
+  },
+  {
+    "img": "https://images.pexels.com/photos/5974014/pexels-photo-5974014.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Noise-Cancelling Wireless Headphones",
+    "prevPrice": "$200.00",
+    "newPrice": "180",
+    "company": "Sony",
+    "star": 4.7,
+    "brand_name": "Sony",
+    "category": "headphones"
+  },
+  {
+    "img": "https://images.pexels.com/photos/4428994/pexels-photo-4428994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Fitness Tracker with Heart Rate Monitor",
+    "prevPrice": "$130.00",
+    "newPrice": "110",
+    "company": "Garmin",
+    "star": 4.6,
+    "brand_name": "Garmin",
+    "category": "wearables"
+  },
+  {
+    "img": "https://images.pexels.com/photos/7047326/pexels-photo-7047326.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Gaming Monitor 27-inch",
+    "prevPrice": "$400.00",
+    "newPrice": "350",
+    "company": "Acer",
+    "star": 4.5,
+    "brand_name": "Acer",
+    "category": "monitors"
+  },
+  {
+    "img": "https://images.pexels.com/photos/3262420/pexels-photo-3262420.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Wireless Charging Pad",
+    "prevPrice": "$30.00",
+    "newPrice": "25",
+    "company": "Anker",
+    "star": 4.6,
+    "brand_name": "Anker",
+    "category": "chargers"
+  },
+  {
+    "img": "https://images.pexels.com/photos/266688/pexels-photo-266688.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Smart Light Bulb",
+    "prevPrice": "$50.00",
+    "newPrice": "40",
+    "company": "Philips",
+    "star": 4.5,
+    "brand_name": "Philips",
+    "category": "smart home"
+  },
+  {
+    "img": "https://images.pexels.com/photos/4202938/pexels-photo-4202938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Electric Toothbrush",
+    "prevPrice": "$90.00",
+    "newPrice": "70",
+    "company": "Oral-B",
+    "star": 4.7,
+    "brand_name": "Oral-B",
+    "category": "personal care"
+  },
+  {
+    "img": "https://images.pexels.com/photos/5208777/pexels-photo-5208777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Portable Power Bank 10000mAh",
+    "prevPrice": "$40.00",
+    "newPrice": "30",
+    "company": "Xiaomi",
+    "star": 4.6,
+    "brand_name": "Xiaomi",
+    "category": "chargers"
+  },
+  {
+    "img": "https://images.pexels.com/photos/27662879/pexels-photo-27662879/free-photo-of-smart-home-devices-system-security-camera-automation.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Smart Thermostat",
+    "prevPrice": "$200.00",
+    "newPrice": "180",
+    "company": "Nest",
+    "star": 4.8,
+    "brand_name": "Nest",
+    "category": "smart home"
+  },
+  {
+    "img": "https://images.pexels.com/photos/4107242/pexels-photo-4107242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Robot Vacuum Cleaner",
+    "prevPrice": "$300.00",
+    "newPrice": "270",
+    "company": "iRobot",
+    "star": 4.7,
+    "brand_name": "iRobot",
+    "category": "home appliances"
+  },
+  {
+    "img": "https://images.pexels.com/photos/4349847/pexels-photo-4349847.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Streaming Media Player",
+    "prevPrice": "$50.00",
+    "newPrice": "45",
+    "company": "Roku",
+    "star": 4.4,
+    "brand_name": "Roku",
+    "category": "media players"
+  },
+  {
+    "img": "https://images.pexels.com/photos/3761125/pexels-photo-3761125.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "VR Headset",
+    "prevPrice": "$400.00",
+    "newPrice": "350",
+    "company": "Oculus",
+    "star": 4.7,
+    "brand_name": "Oculus",
+    "category": "gaming"
+  },
+  {
+    "img": "https://images.pexels.com/photos/1990764/pexels-photo-1990764.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Smart Doorbell",
+    "prevPrice": "$150.00",
+    "newPrice": "130",
+    "company": "Ring",
+    "star": 4.6,
+    "brand_name": "Ring",
+    "category": "security"
+  },
+  {
+    "img": "https://images.pexels.com/photos/2115057/pexels-photo-2115057.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Smart Lock",
+    "prevPrice": "$180.00",
+    "newPrice": "160",
+    "company": "August",
+    "star": 4.5,
+    "brand_name": "August",
+    "category": "security"
+  },
+  {
+    "img": "https://images.pexels.com/photos/6499170/pexels-photo-6499170.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Gaming Chair",
+    "prevPrice": "$250.00",
+    "newPrice": "220",
+    "company": "Secretlab",
+    "star": 4.8,
+    "brand_name": "Secretlab",
+    "category": "gaming"
+  },
+  {
+    "img": "https://images.pexels.com/photos/4812956/pexels-photo-4812956.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Portable Bluetooth Earbuds",
+    "prevPrice": "$150.00",
+    "newPrice": "120",
+    "company": "Apple",
+    "star": 4.8,
+    "brand_name": "Apple",
+    "category": "headphones"
+  },
+  {
+    "img": "https://images.pexels.com/photos/9188197/pexels-photo-9188197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Smartphone Gimbal Stabilizer",
+    "prevPrice": "$120.00",
+    "newPrice": "100",
+    "company": "DJI",
+    "star": 4.6,
+    "brand_name": "DJI",
+    "category": "cameras"
+  },
+  {
+    "img": "https://images.pexels.com/photos/4792498/pexels-photo-4792498.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Smart Glasses",
+    "prevPrice": "$300.00",
+    "newPrice": "270",
+    "company": "Ray-Ban",
+    "star": 4.4,
+    "brand_name": "Ray-Ban",
+    "category": "wearables"
+  },
+  {
+    "img": "https://images.pexels.com/photos/5849392/pexels-photo-5849392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "E-Reader with Adjustable Light",
+    "prevPrice": "$140.00",
+    "newPrice": "120",
+    "company": "Amazon",
+    "star": 4.7,
+    "brand_name": "Kindle",
+    "category": "e-readers"
+  },
+  {
+    "img": "https://images.pexels.com/photos/3945667/pexels-photo-3945667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Noise-Cancelling Over-Ear Headphones",
+    "prevPrice": "$250.00",
+    "newPrice": "220",
+    "company": "Bose",
+    "star": 4.8,
+    "brand_name": "Bose",
+    "category": "headphones"
+  },
+  {
+    "img": "https://images.pexels.com/photos/2343467/pexels-photo-2343467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Smart Refrigerator with Touchscreen",
+    "prevPrice": "$3,000.00",
+    "newPrice": "2,700",
+    "company": "LG",
+    "star": 4.9,
+    "brand_name": "LG",
+    "category": "home appliances"
+  },
+  {
+    "img": "https://images.pexels.com/photos/7709679/pexels-photo-7709679.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Portable Projector",
+    "prevPrice": "$500.00",
+    "newPrice": "450",
+    "company": "Anker",
+    "star": 4.6,
+    "brand_name": "Anker",
+    "category": "projectors"
+  },
+  {
+    "img": "https://images.pexels.com/photos/4218546/pexels-photo-4218546.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Wi-Fi Mesh Router System",
+    "prevPrice": "$400.00",
+    "newPrice": "350",
+    "company": "Netgear",
+    "star": 4.5,
+    "brand_name": "Netgear",
+    "category": "networking"
+  },
+  {
+    "img": "https://images.pexels.com/photos/20502967/pexels-photo-20502967/free-photo-of-air-purifier-and-vase-of-flowers.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Smart Air Purifier",
+    "prevPrice": "$250.00",
+    "newPrice": "220",
+    "company": "Dyson",
+    "star": 4.7,
+    "brand_name": "Dyson",
+    "category": "home appliances"
+  },
+  {
+    "img": "https://images.pexels.com/photos/1486294/pexels-photo-1486294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Wireless Ergonomic Mouse",
+    "prevPrice": "$100.00",
+    "newPrice": "80",
+    "company": "Logitech",
+    "star": 4.8,
+    "brand_name": "Logitech",
+    "category": "accessories"
+  },
+  {
+    "img": "https://images.pexels.com/photos/3945659/pexels-photo-3945659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Gaming Console",
+    "prevPrice": "$500.00",
+    "newPrice": "450",
+    "company": "Sony",
+    "star": 4.9,
+    "brand_name": "Sony",
+    "category": "gaming"
+  },
+  {
+    "img": "https://images.pexels.com/photos/1528975/pexels-photo-1528975.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Smart Mirror with LED",
+    "prevPrice": "$200.00",
+    "newPrice": "180",
+    "company": "HiMirror",
+    "star": 4.4,
+    "brand_name": "HiMirror",
+    "category": "smart home"
+  },
+  {
+    "img": "https://images.pexels.com/photos/162783/lemon-water-refreshment-fruit-juice-162783.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Smart Water Bottle",
+    "prevPrice": "$60.00",
+    "newPrice": "50",
+    "company": "HidrateSpark",
+    "star": 4.5,
+    "brand_name": "HidrateSpark",
+    "category": "personal care"
+  }
+]
