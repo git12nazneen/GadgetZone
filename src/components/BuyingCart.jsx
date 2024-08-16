@@ -64,7 +64,10 @@ const BuyingCart = () => {
   const handlePageChange = (direction, category) => {
     setCurrentPage((prevPage) => {
       const totalItems = products.filter(
-        (item) => item.category === category && (!searchTerm || item.brand_name?.toLowerCase().includes(searchTerm.toLowerCase()))
+        (item) =>
+          item.category === category &&
+          (!searchTerm ||
+            item.brand_name?.toLowerCase().includes(searchTerm.toLowerCase()))
       ).length;
       if (direction === "next") {
         if (prevPage * ITEMS_PER_PAGE < totalItems) {
@@ -113,13 +116,27 @@ const BuyingCart = () => {
           }}
         >
           <TabList className="flex space-x-4">
-            <h2 className="pt-2 text-orange-600 font-bold">Recommended Category : </h2>
-            <Tab className="px-4 py-2 bg-white text-black rounded-md border hover:bg-blue-600">Media</Tab>
-            <Tab className="px-4 py-2 bg-white text-black rounded-md border hover:bg-green-600">Technology</Tab>
-            <Tab className="px-4 py-2 bg-white text-black rounded-md border hover:bg-red-600">Drones</Tab>
-            <Tab className="px-4 py-2 bg-white text-black rounded-md border hover:bg-yellow-600">Security</Tab>
-            <Tab className="px-4 py-2 bg-white text-black rounded-md border hover:bg-purple-600">Home</Tab>
-            <Tab className="px-4 py-2 bg-white text-black rounded-md border hover:bg-teal-600">Computing</Tab>
+            <h2 className="pt-2 text-orange-600 font-bold">
+              Recommended Category :{" "}
+            </h2>
+            <Tab className="px-4 py-2 bg-white text-black rounded-md border hover:bg-blue-600">
+              Media
+            </Tab>
+            <Tab className="px-4 py-2 bg-white text-black rounded-md border hover:bg-green-600">
+              Technology
+            </Tab>
+            <Tab className="px-4 py-2 bg-white text-black rounded-md border hover:bg-red-600">
+              Drones
+            </Tab>
+            <Tab className="px-4 py-2 bg-white text-black rounded-md border hover:bg-yellow-600">
+              Security
+            </Tab>
+            <Tab className="px-4 py-2 bg-white text-black rounded-md border hover:bg-purple-600">
+              Home
+            </Tab>
+            <Tab className="px-4 py-2 bg-white text-black rounded-md border hover:bg-teal-600">
+              Computing
+            </Tab>
           </TabList>
 
           {categories.map((cat, index) => (
@@ -130,7 +147,9 @@ const BuyingCart = () => {
                     <ShopCard key={item._id} item={item} />
                   ))
                 ) : (
-                  <div className="col-span-full text-center text-gray-600">No data found</div>
+                  <div className="col-span-full text-center text-gray-600">
+                    No data found
+                  </div>
                 )}
               </div>
               <div className="flex justify-between">
@@ -149,7 +168,10 @@ const BuyingCart = () => {
                     products.filter(
                       (item) =>
                         item.category === cat &&
-                        (!searchTerm || item.brand_name?.toLowerCase().includes(searchTerm.toLowerCase()))
+                        (!searchTerm ||
+                          item.brand_name
+                            ?.toLowerCase()
+                            .includes(searchTerm.toLowerCase()))
                     ).length
                   }
                 >
