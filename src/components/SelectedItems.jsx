@@ -1,5 +1,6 @@
-import SelectedCard from "./SelectedCard";
+// import SelectedCard from "./SelectedCard";
 import { IoCheckmarkSharp } from "react-icons/io5";
+import GadgetSwiper from "../pages/GadgetSwiper";
 const SelectedItems = () => {
   return (
     <div className="bg-[#f14902] py-20">
@@ -11,7 +12,7 @@ const SelectedItems = () => {
               <p className="text-orange-600 text-sm font-bold mb-2">
                 HIGHLIGHT ITEM
               </p>
-              <h2 className="text-5xl  mb-4">
+              <h2 className="text-4xl  mb-4">
                 Discover Our <br /> Selected Items
               </h2>
               <h6 className="text-gray-700 text-sm pr-5">
@@ -47,7 +48,7 @@ const SelectedItems = () => {
           </div>
           {/* Card Section */}
           <div className="flex-1">
-            <SelectedCard></SelectedCard>
+           <GadgetSwiper></GadgetSwiper>
           </div>
         </div>
       </div>

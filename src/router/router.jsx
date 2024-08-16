@@ -7,6 +7,7 @@ import Home from "../pages/Home";
 import Login from "../auth/Login";
 import Register from "../auth/Register";
 import Card from "../components/Card";
+import BuyingCart from "../components/BuyingCart";
 
 const router = createBrowserRouter([
     {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
           element:<Card></Card>,
           loader:({params})=>fetch(`https://server-two-sage-80.vercel.app/products/${params.id}`)
         },
+        {
+          path:'/buyingCart/category',
+          element:<BuyingCart/>
+        }
       ]
     },
   ]);

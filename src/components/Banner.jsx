@@ -2,7 +2,7 @@ import vedio from "../assets/vedio.mp4";
 
 const Banner = () => {
   return (
-    <div className="banner-container relative mx-auto w-full h-[70vh] md:h-[80vh] lg:h-[90vh]">
+    <div className="banner-container mt-20 relative mx-auto w-full h-[70vh] md:h-[80vh] lg:h-[90vh]">
       <video
         className="banner-video object-cover w-full h-full"
         autoPlay

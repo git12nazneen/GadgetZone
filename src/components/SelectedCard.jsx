@@ -15,7 +15,7 @@ const SelectedCard = () => {
 
         <img
           className="object-cover w-full h-48 mt-2"
-          src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=320&q=80"
+          src="https://images.pexels.com/photos/5849392/pexels-photo-5849392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="NIKE AIR"
         />
 
@@ -39,7 +39,7 @@ const SelectedCard = () => {
 
         <img
           className="object-cover w-full h-48 mt-2"
-          src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=320&q=80"
+          src="https://images.pexels.com/photos/3780681/pexels-photo-3780681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="NIKE AIR"
         />
 
