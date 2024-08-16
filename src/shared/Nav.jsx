@@ -35,22 +35,13 @@ const Nav = () => {
         className={({ isActive }) =>
           isActive
             ? "text-[#f14902] border-b-2 border-[#f14902] font-bold"
-            : "my-2 text-gray-100 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
+            : "my-2 mx-5 text-gray-100 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
         }
       >
         Home
       </NavLink>
 
-      <NavLink
-        to="/room"
-        className={({ isActive }) =>
-          isActive
-            ? "text-[#f14902] border-b-2 border-[#f14902] font-bold"
-            : "my-2 text-gray-100 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
-        }
-      >
-        Rooms
-      </NavLink>
+    
     </>
   );
 

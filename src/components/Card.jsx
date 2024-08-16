@@ -13,7 +13,7 @@ const Card = ({ card }) => {
   } = card;
 
   return (
-    <div className="w-64 overflow-hidden bg-white hover:bg-gray-800 rounded-lg shadow-lg dark:bg-gray-800 group">
+    <div className="w-64 mx-auto overflow-hidden bg-white hover:bg-gray-800 rounded-lg shadow-lg dark:bg-gray-800 group">
       <div className="max-w-xs overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
         <div className="px-4 py-2">
           <h1 className="text-xl font-bold text-gray-800 uppercase dark:text-white">
