@@ -1,6 +1,7 @@
 // import SelectedCard from "./SelectedCard";
 import { IoCheckmarkSharp } from "react-icons/io5";
 import GadgetSwiper from "../pages/GadgetSwiper";
+import { Link } from "react-router-dom";
 const SelectedItems = () => {
   return (
     <div className="bg-[#f14902] py-20">
@@ -41,9 +42,11 @@ const SelectedItems = () => {
                   </li>
                 </ul>
               </div>
+              <Link to='/'>
               <button className="py-2 px-4 bg-orange-600 text-black rounded-md hover:bg-black  hover:text-white">
                 Browse all
               </button>
+              </Link>
             </div>
           </div>
           {/* Card Section */}

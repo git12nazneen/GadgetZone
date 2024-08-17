@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import one from "../assets/one.jpg";
 import two from "../assets/two.jpg";
 import { FaShopify } from "react-icons/fa";
@@ -84,9 +85,11 @@ const ElectricNeed = () => {
                   </ul>
                 </div>
               </div>
+              <Link to='/'>
               <button className="py-2 px-4 bg-orange-600 text-black rounded-md hover:bg-black  hover:text-white">
                 Browse all
               </button>
+              </Link>
             </div>
           </div>
         </div>

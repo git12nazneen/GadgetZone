@@ -7,7 +7,7 @@ This project is a Fullstack Single Page Application (SPA) built with the MERN st
 
 ## Live Website Link
 
-[Your Live Website Link](https://gadgetzone-93c88.web.app)
+[Your Live Website Link](https://gadgetzone-93c88.web.app/)
 
 ## Features
 

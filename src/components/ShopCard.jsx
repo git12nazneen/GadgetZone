@@ -1,5 +1,5 @@
 const ShopCard = ({ item }) => {
-  const { img, title, brand_name, prevPrice, newPrice, category } = item;
+  const { img, title, brand_name, prevPrice, newPrice, category ,date } = item;
 
   return (
     <div>
@@ -10,8 +10,9 @@ const ShopCard = ({ item }) => {
               {brand_name}
             </h1>
             <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">
-              {title}
+              {title.slice(0, 30)}
             </p>
+            <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">{date}</p>
           </div>
 
           <img

@@ -40,8 +40,7 @@ const Nav = () => {
       >
         Home
       </NavLink>
-
-    
+       
     </>
   );
 

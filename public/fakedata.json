@@ -7,7 +7,8 @@
     "company": "Sony",
     "star": 4.5,
     "brand_name": "Sony",
-    "category": "media"
+    "category": "media",
+    "date": "2024-01-17"
   },
   {
     "img": "https://images.pexels.com/photos/20071323/pexels-photo-20071323/free-photo-of-bluetooth-speaker-with-lamp.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -17,7 +18,8 @@
     "company": "JBL",
     "star": 4.2,
     "brand_name": "JBL",
-    "category": "media"
+    "category": "media",
+    "date": "2024-02-17"
   },
   {
     "img": "https://images.pexels.com/photos/2861929/pexels-photo-2861929.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -27,7 +29,8 @@
     "company": "Fitbit",
     "star": 4.7,
     "brand_name": "Fitbit",
-    "category": "technology"
+    "category": "technology",
+    "date": "2024-03-17"
   },
   {
     "img": "https://images.pexels.com/photos/2115256/pexels-photo-2115256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -37,7 +40,8 @@
     "company": "Logitech",
     "star": 4.6,
     "brand_name": "Logitech",
-    "category": "entertainment "
+    "category": "entertainment ",
+    "date": "2024-04-17"
   },
   {
     "img": "https://images.pexels.com/photos/682933/pexels-photo-682933.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -47,7 +51,8 @@
     "company": "Corsair",
     "star": 4.8,
     "brand_name": "Corsair",
-    "category": "entertainment "
+    "category": "entertainment ",
+    "date": "2024-05-17"
   },
   {
     "img": "https://images.pexels.com/photos/3205735/pexels-photo-3205735.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -57,7 +62,8 @@
     "company": "Ring",
     "star": 4.4,
     "brand_name": "Ring",
-    "category": "security"
+    "category": "security",
+    "date": "2024-06-17"
   },
   {
     "img": "https://images.pexels.com/photos/3780681/pexels-photo-3780681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -67,7 +73,8 @@
     "company": "Bose",
     "star": 4.9,
     "brand_name": "Bose",
-    "category": "media"
+    "category": "media",
+    "date": "2024-07-17"
   },
   {
     "img": "https://images.pexels.com/photos/1571458/pexels-photo-1571458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -77,7 +84,8 @@
     "company": "Samsung",
     "star": 4.7,
     "brand_name": "Samsung",
-    "category": "computing"
+    "category": "computing",
+    "date": "2024-08-17"
   },
   {
     "img": "https://images.pexels.com/photos/12569426/pexels-photo-12569426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -87,7 +95,8 @@
     "company": "Apple",
     "star": 4.8,
     "brand_name": "Apple",
-    "category": "technology"
+    "category": "technology",
+    "date": "2024-09-17"
   },
   {
     "img": "https://images.pexels.com/photos/40739/mobile-phone-smartphone-tablet-white-40739.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -97,7 +106,8 @@
     "company": "Microsoft",
     "star": 4.5,
     "brand_name": "Microsoft",
-    "category": "technology"
+    "category": "technology",
+    "date": "2024-10-17"
   },
   {
     "img": "https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -107,7 +117,8 @@
     "company": "Dell",
     "star": 4.7,
     "brand_name": "Dell",
-    "category": "computing"
+    "category": "computing",
+    "date": "2024-11-17"
   },
   {
     "img": "https://images.pexels.com/photos/11553188/pexels-photo-11553188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -117,7 +128,8 @@
     "company": "SanDisk",
     "star": 4.8,
     "brand_name": "SanDisk",
-    "category": "technology"
+    "category": "technology",
+    "date": "2024-12-17"
   },
   {
     "img": "https://images.pexels.com/photos/336232/pexels-photo-336232.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -127,7 +139,8 @@
     "company": "DJI",
     "star": 4.6,
     "brand_name": "DJI",
-    "category": "drones"
+    "category": "drones",
+    "date": "2024-08-11"
   },
   {
     "img": "https://images.pexels.com/photos/753859/pexels-photo-753859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -137,7 +150,8 @@
     "company": "GoPro",
     "star": 4.7,
     "brand_name": "GoPro",
-    "category": "entertainment"
+    "category": "entertainment",
+    "date": "2024-08-12"
   },
   {
     "img": "https://images.pexels.com/photos/5974014/pexels-photo-5974014.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -147,7 +161,8 @@
     "company": "Sony",
     "star": 4.7,
     "brand_name": "Sony",
-    "category": "media"
+    "category": "media",
+    "date": "2024-08-13"
   },
   {
     "img": "https://images.pexels.com/photos/4428994/pexels-photo-4428994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -157,7 +172,8 @@
     "company": "Garmin",
     "star": 4.6,
     "brand_name": "Garmin",
-    "category": "technology"
+    "category": "technology",
+    "date": "2024-08-14"
   },
   {
     "img": "https://images.pexels.com/photos/7047326/pexels-photo-7047326.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -167,7 +183,8 @@
     "company": "Acer",
     "star": 4.5,
     "brand_name": "Acer",
-    "category": "computing"
+    "category": "computing",
+    "date": "2024-08-15"
   },
   {
     "img": "https://images.pexels.com/photos/3262420/pexels-photo-3262420.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -177,7 +194,8 @@
     "company": "Anker",
     "star": 4.6,
     "brand_name": "Anker",
-    "category": "entertainment"
+    "category": "entertainment",
+    "date": "2024-08-16"
   },
   {
     "img": "https://images.pexels.com/photos/266688/pexels-photo-266688.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -187,7 +205,8 @@
     "company": "Philips",
     "star": 4.5,
     "brand_name": "Philips",
-    "category": "home"
+    "category": "home",
+    "date": "2024-08-17"
   },
   {
     "img": "https://images.pexels.com/photos/4202938/pexels-photo-4202938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -197,7 +216,8 @@
     "company": "Oral-B",
     "star": 4.7,
     "brand_name": "Oral-B",
-    "category": "home"
+    "category": "home",
+    "date": "2024-08-18"
   },
   {
     "img": "https://images.pexels.com/photos/5208777/pexels-photo-5208777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -207,7 +227,8 @@
     "company": "Xiaomi",
     "star": 4.6,
     "brand_name": "Xiaomi",
-    "category": "media"
+    "category": "media",
+    "date": "2024-08-19"
   },
   {
     "img": "https://images.pexels.com/photos/27662879/pexels-photo-27662879/free-photo-of-smart-home-devices-system-security-camera-automation.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -217,7 +238,8 @@
     "company": "Nest",
     "star": 4.8,
     "brand_name": "Nest",
-    "category": "home"
+    "category": "home",
+    "date": "2024-08-20"
   },
   {
     "img": "https://images.pexels.com/photos/4107242/pexels-photo-4107242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -227,7 +249,8 @@
     "company": "iRobot",
     "star": 4.7,
     "brand_name": "iRobot",
-    "category": "home"
+    "category": "home",
+    "date": "2024-08-21"
   },
   {
     "img": "https://images.pexels.com/photos/4349847/pexels-photo-4349847.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -237,7 +260,8 @@
     "company": "Roku",
     "star": 4.4,
     "brand_name": "Roku",
-    "category": "media"
+    "category": "media",
+    "date": "2024-08-21"
   },
   {
     "img": "https://images.pexels.com/photos/3761125/pexels-photo-3761125.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -247,7 +271,8 @@
     "company": "Oculus",
     "star": 4.7,
     "brand_name": "Oculus",
-    "category": "entertainment"
+    "category": "entertainment",
+    "date": "2024-08-14"
   },
   {
     "img": "https://images.pexels.com/photos/1990764/pexels-photo-1990764.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -257,7 +282,8 @@
     "company": "Ring",
     "star": 4.6,
     "brand_name": "Ring",
-    "category": "home"
+    "category": "home",
+    "date": "2024-08-30"
   },
   {
     "img": "https://images.pexels.com/photos/2115057/pexels-photo-2115057.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -267,7 +293,8 @@
     "company": "August",
     "star": 4.5,
     "brand_name": "August",
-    "category": "home"
+    "category": "home",
+    "date": "2024-08-01"
   },
   {
     "img": "https://images.pexels.com/photos/6499170/pexels-photo-6499170.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -277,7 +304,8 @@
     "company": "Secretlab",
     "star": 4.8,
     "brand_name": "Secretlab",
-    "category": "entertainment"
+    "category": "entertainment",
+    "date": "2024-08-02"
   },
   {
     "img": "https://images.pexels.com/photos/4812956/pexels-photo-4812956.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -287,7 +315,8 @@
     "company": "Apple",
     "star": 4.8,
     "brand_name": "Apple",
-    "category": "media"
+    "category": "media",
+    "date": "2024-08-27"
   },
   {
     "img": "https://images.pexels.com/photos/9188197/pexels-photo-9188197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -297,7 +326,8 @@
     "company": "DJI",
     "star": 4.6,
     "brand_name": "DJI",
-    "category": "technology"
+    "category": "technology",
+    "date": "2024-08-03"
   },
   {
     "img": "https://images.pexels.com/photos/4792498/pexels-photo-4792498.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -307,7 +337,8 @@
     "company": "Ray-Ban",
     "star": 4.4,
     "brand_name": "Ray-Ban",
-    "category": "technology"
+    "category": "technology",
+    "date": "2024-08-04"
   },
   {
     "img": "https://images.pexels.com/photos/5849392/pexels-photo-5849392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -317,7 +348,8 @@
     "company": "Amazon",
     "star": 4.7,
     "brand_name": "Kindle",
-    "category": "computing"
+    "category": "computing",
+    "date": "2024-08-05"
   },
   {
     "img": "https://images.pexels.com/photos/3945667/pexels-photo-3945667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -327,7 +359,8 @@
     "company": "Bose",
     "star": 4.8,
     "brand_name": "Bose",
-    "category": "media"
+    "category": "media",
+    "date": "2024-08-24"
   },
   {
     "img": "https://images.pexels.com/photos/2343467/pexels-photo-2343467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -337,7 +370,8 @@
     "company": "LG",
     "star": 4.9,
     "brand_name": "LG",
-    "category": "home"
+    "category": "home",
+    "date": "2024-08-11"
   },
   {
     "img": "https://images.pexels.com/photos/7709679/pexels-photo-7709679.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -347,7 +381,8 @@
     "company": "Anker",
     "star": 4.6,
     "brand_name": "Anker",
-    "category": "computing"
+    "category": "computing",
+    "date": "2024-08-31"
   },
   {
     "img": "https://images.pexels.com/photos/4218546/pexels-photo-4218546.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -357,7 +392,8 @@
     "company": "Netgear",
     "star": 4.5,
     "brand_name": "Netgear",
-    "category": "computing"
+    "category": "computing",
+    "date": "2023-08-01"
   },
   {
     "img": "https://images.pexels.com/photos/20502967/pexels-photo-20502967/free-photo-of-air-purifier-and-vase-of-flowers.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -367,7 +403,8 @@
     "company": "Dyson",
     "star": 4.7,
     "brand_name": "Dyson",
-    "category": "home"
+    "category": "home",
+    "date": "2023-18-01"
   },
   {
     "img": "https://images.pexels.com/photos/1486294/pexels-photo-1486294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -377,7 +414,8 @@
     "company": "Logitech",
     "star": 4.8,
     "brand_name": "Logitech",
-    "category": "computing"
+    "category": "computing",
+    "date": "2023-18-11"
   },
   {
     "img": "https://images.pexels.com/photos/3945659/pexels-photo-3945659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -387,7 +425,8 @@
     "company": "Sony",
     "star": 4.9,
     "brand_name": "Sony",
-    "category": "entertainment"
+    "category": "entertainment",
+    "date": "2023-18-23"
   },
   {
     "img": "https://images.pexels.com/photos/1528975/pexels-photo-1528975.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -397,7 +436,8 @@
     "company": "HiMirror",
     "star": 4.4,
     "brand_name": "HiMirror",
-    "category": "home"
+    "category": "home",
+    "date": "2023-18-31"
   },
   {
     "img": "https://images.pexels.com/photos/162783/lemon-water-refreshment-fruit-juice-162783.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -407,6 +447,7 @@
     "company": "HidrateSpark",
     "star": 4.5,
     "brand_name": "HidrateSpark",
-    "category": "home"
+    "category": "home",
+    "date": "2023-18-21"
   }
 ]

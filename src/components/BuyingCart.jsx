@@ -49,14 +49,18 @@ const BuyingCart = () => {
       );
     }
 
-    // Apply sorting by newPrice
-    filteredProducts.sort((a, b) => {
-      if (sortOrder === "asc") {
-        return a.newPrice - b.newPrice;
-      } else {
-        return b.newPrice - a.newPrice;
-      }
-    });
+    // Apply sorting
+    if (sortOrder === "asc" || sortOrder === "desc") {
+      filteredProducts.sort((a, b) => {
+        if (sortOrder === "asc") {
+          return a.newPrice - b.newPrice;
+        } else {
+          return b.newPrice - a.newPrice;
+        }
+      });
+    } else if (sortOrder === "newest") {
+      filteredProducts.sort((a, b) => new Date(b.date) - new Date(a.date));
+    }
 
     const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
     return filteredProducts.slice(startIndex, startIndex + ITEMS_PER_PAGE);
@@ -106,6 +110,7 @@ const BuyingCart = () => {
           >
             <option value="asc">Sort by Price: Low to High</option>
             <option value="desc">Sort by Price: High to Low</option>
+            <option value="newest">All Newest Products</option>
           </select>
         </div>
 
