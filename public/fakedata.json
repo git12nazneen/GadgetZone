@@ -6,7 +6,7 @@
     "newPrice": "90",
     "company": "Sony",
     "star": 4.5,
-    "brand_name": "Sony",
+    "brand_name": "Apple",
     "category": "media",
     "date": "2024-01-17"
   },
@@ -17,7 +17,7 @@
     "newPrice": "60",
     "company": "JBL",
     "star": 4.2,
-    "brand_name": "JBL",
+    "brand_name": "Microsoft",
     "category": "media",
     "date": "2024-02-17"
   },
@@ -28,7 +28,7 @@
     "newPrice": "110",
     "company": "Fitbit",
     "star": 4.7,
-    "brand_name": "Fitbit",
+    "brand_name": "Samsung",
     "category": "technology",
     "date": "2024-03-17"
   },
@@ -50,7 +50,7 @@
     "newPrice": "80",
     "company": "Corsair",
     "star": 4.8,
-    "brand_name": "Corsair",
+    "brand_name": "Oppo",
     "category": "entertainment ",
     "date": "2024-05-17"
   },
@@ -61,7 +61,7 @@
     "newPrice": "100",
     "company": "Ring",
     "star": 4.4,
-    "brand_name": "Ring",
+    "brand_name": "Vivo",
     "category": "security",
     "date": "2024-06-17"
   },
@@ -72,7 +72,7 @@
     "newPrice": "150",
     "company": "Bose",
     "star": 4.9,
-    "brand_name": "Bose",
+    "brand_name": "Apple",
     "category": "media",
     "date": "2024-07-17"
   },
@@ -116,7 +116,7 @@
     "newPrice": "1,100",
     "company": "Dell",
     "star": 4.7,
-    "brand_name": "Dell",
+    "brand_name": "Microsoft",
     "category": "computing",
     "date": "2024-11-17"
   },
@@ -127,7 +127,7 @@
     "newPrice": "120",
     "company": "SanDisk",
     "star": 4.8,
-    "brand_name": "SanDisk",
+    "brand_name": "Microsoft",
     "category": "technology",
     "date": "2024-12-17"
   },
@@ -138,7 +138,7 @@
     "newPrice": "750",
     "company": "DJI",
     "star": 4.6,
-    "brand_name": "DJI",
+    "brand_name": "Microsoft",
     "category": "drones",
     "date": "2024-08-11"
   },
@@ -149,7 +149,7 @@
     "newPrice": "250",
     "company": "GoPro",
     "star": 4.7,
-    "brand_name": "GoPro",
+    "brand_name": "Samsung",
     "category": "entertainment",
     "date": "2024-08-12"
   },
@@ -160,7 +160,7 @@
     "newPrice": "180",
     "company": "Sony",
     "star": 4.7,
-    "brand_name": "Sony",
+    "brand_name": "Samsung",
     "category": "media",
     "date": "2024-08-13"
   },
@@ -171,7 +171,7 @@
     "newPrice": "110",
     "company": "Garmin",
     "star": 4.6,
-    "brand_name": "Garmin",
+    "brand_name": "Samsung",
     "category": "technology",
     "date": "2024-08-14"
   },
@@ -182,7 +182,7 @@
     "newPrice": "350",
     "company": "Acer",
     "star": 4.5,
-    "brand_name": "Acer",
+    "brand_name": "Samsung",
     "category": "computing",
     "date": "2024-08-15"
   },
@@ -193,7 +193,7 @@
     "newPrice": "25",
     "company": "Anker",
     "star": 4.6,
-    "brand_name": "Anker",
+    "brand_name": "Logitech",
     "category": "entertainment",
     "date": "2024-08-16"
   },
@@ -204,7 +204,7 @@
     "newPrice": "40",
     "company": "Philips",
     "star": 4.5,
-    "brand_name": "Philips",
+    "brand_name": "Logitech",
     "category": "home",
     "date": "2024-08-17"
   },
@@ -215,7 +215,7 @@
     "newPrice": "70",
     "company": "Oral-B",
     "star": 4.7,
-    "brand_name": "Oral-B",
+    "brand_name": "Logitech",
     "category": "home",
     "date": "2024-08-18"
   },
@@ -226,7 +226,7 @@
     "newPrice": "30",
     "company": "Xiaomi",
     "star": 4.6,
-    "brand_name": "Xiaomi",
+    "brand_name": "Logitech",
     "category": "media",
     "date": "2024-08-19"
   },
@@ -237,7 +237,7 @@
     "newPrice": "180",
     "company": "Nest",
     "star": 4.8,
-    "brand_name": "Nest",
+    "brand_name": "Oppo",
     "category": "home",
     "date": "2024-08-20"
   },
@@ -248,7 +248,7 @@
     "newPrice": "270",
     "company": "iRobot",
     "star": 4.7,
-    "brand_name": "iRobot",
+    "brand_name": "Oppo",
     "category": "home",
     "date": "2024-08-21"
   },
@@ -259,7 +259,7 @@
     "newPrice": "45",
     "company": "Roku",
     "star": 4.4,
-    "brand_name": "Roku",
+    "brand_name": "Oppo",
     "category": "media",
     "date": "2024-08-21"
   },
@@ -270,7 +270,7 @@
     "newPrice": "350",
     "company": "Oculus",
     "star": 4.7,
-    "brand_name": "Oculus",
+    "brand_name": "Oppo",
     "category": "entertainment",
     "date": "2024-08-14"
   },
@@ -281,7 +281,7 @@
     "newPrice": "130",
     "company": "Ring",
     "star": 4.6,
-    "brand_name": "Ring",
+    "brand_name": "Apple",
     "category": "home",
     "date": "2024-08-30"
   },
@@ -292,7 +292,7 @@
     "newPrice": "160",
     "company": "August",
     "star": 4.5,
-    "brand_name": "August",
+    "brand_name": "Apple",
     "category": "home",
     "date": "2024-08-01"
   },
@@ -303,7 +303,7 @@
     "newPrice": "220",
     "company": "Secretlab",
     "star": 4.8,
-    "brand_name": "Secretlab",
+    "brand_name": "Apple",
     "category": "entertainment",
     "date": "2024-08-02"
   },
@@ -325,7 +325,7 @@
     "newPrice": "100",
     "company": "DJI",
     "star": 4.6,
-    "brand_name": "DJI",
+    "brand_name": "Apple",
     "category": "technology",
     "date": "2024-08-03"
   },
@@ -336,7 +336,7 @@
     "newPrice": "270",
     "company": "Ray-Ban",
     "star": 4.4,
-    "brand_name": "Ray-Ban",
+    "brand_name": "Apple",
     "category": "technology",
     "date": "2024-08-04"
   },
@@ -347,7 +347,7 @@
     "newPrice": "120",
     "company": "Amazon",
     "star": 4.7,
-    "brand_name": "Kindle",
+    "brand_name": "Apple",
     "category": "computing",
     "date": "2024-08-05"
   },
@@ -358,7 +358,7 @@
     "newPrice": "220",
     "company": "Bose",
     "star": 4.8,
-    "brand_name": "Bose",
+    "brand_name": "Apple",
     "category": "media",
     "date": "2024-08-24"
   },
@@ -369,7 +369,7 @@
     "newPrice": "2,700",
     "company": "LG",
     "star": 4.9,
-    "brand_name": "LG",
+    "brand_name": "Microsoft",
     "category": "home",
     "date": "2024-08-11"
   },
@@ -380,7 +380,7 @@
     "newPrice": "450",
     "company": "Anker",
     "star": 4.6,
-    "brand_name": "Anker",
+    "brand_name": "Microsoft",
     "category": "computing",
     "date": "2024-08-31"
   },
@@ -391,7 +391,7 @@
     "newPrice": "350",
     "company": "Netgear",
     "star": 4.5,
-    "brand_name": "Netgear",
+    "brand_name": "Microsoft",
     "category": "computing",
     "date": "2023-08-01"
   },
@@ -402,7 +402,7 @@
     "newPrice": "220",
     "company": "Dyson",
     "star": 4.7,
-    "brand_name": "Dyson",
+    "brand_name": "Microsoft",
     "category": "home",
     "date": "2023-18-01"
   },
@@ -424,7 +424,7 @@
     "newPrice": "450",
     "company": "Sony",
     "star": 4.9,
-    "brand_name": "Sony",
+    "brand_name": "Samsung",
     "category": "entertainment",
     "date": "2023-18-23"
   },
@@ -435,7 +435,7 @@
     "newPrice": "180",
     "company": "HiMirror",
     "star": 4.4,
-    "brand_name": "HiMirror",
+    "brand_name": "Samsung",
     "category": "home",
     "date": "2023-18-31"
   },
@@ -446,7 +446,7 @@
     "newPrice": "50",
     "company": "HidrateSpark",
     "star": 4.5,
-    "brand_name": "HidrateSpark",
+    "brand_name": "Vivo",
     "category": "home",
     "date": "2023-18-21"
   }

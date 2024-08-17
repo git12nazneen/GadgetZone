@@ -24,6 +24,7 @@ const BuyingCart = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [sortOrder, setSortOrder] = useState("asc"); // State for sorting
   const [searchTerm, setSearchTerm] = useState(""); // State for search
+  const [selectedBrand, setSelectedBrand] = useState(''); // State for brand selection
 
   const { isLoading, error, products } = useMenu();
 
@@ -49,6 +50,13 @@ const BuyingCart = () => {
       );
     }
 
+    // Apply brand filter
+    if (selectedBrand) {
+      filteredProducts = filteredProducts.filter(
+        (item) => item.brand_name === selectedBrand
+      );
+    }
+
     // Apply sorting
     if (sortOrder === "asc" || sortOrder === "desc") {
       filteredProducts.sort((a, b) => {
@@ -66,13 +74,19 @@ const BuyingCart = () => {
     return filteredProducts.slice(startIndex, startIndex + ITEMS_PER_PAGE);
   };
 
+  const handleBrandChange = (e) => {
+    setSelectedBrand(e.target.value);
+    setCurrentPage(1); // Reset to the first page when changing the brand
+  };
+
   const handlePageChange = (direction, category) => {
     setCurrentPage((prevPage) => {
       const totalItems = products.filter(
         (item) =>
           item.category === category &&
           (!searchTerm ||
-            item.brand_name?.toLowerCase().includes(searchTerm.toLowerCase()))
+            item.brand_name?.toLowerCase().includes(searchTerm.toLowerCase())) &&
+          (!selectedBrand || item.brand_name === selectedBrand)
       ).length;
       if (direction === "next") {
         if (prevPage * ITEMS_PER_PAGE < totalItems) {
@@ -96,17 +110,23 @@ const BuyingCart = () => {
       <div className="max-w-4xl mx-auto my-20">
         {/* Search and Sort Controls */}
         <div className="flex flex-col sm:flex-row justify-between mb-6 space-y-4 sm:space-y-0 sm:space-x-4">
-          <input
-            type="text"
-            placeholder="Search by brand..."
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            className="px-4 py-2 border rounded w-full sm:w-1/2 lg:w-1/3"
-          />
+          <select
+            value={selectedBrand}
+            onChange={handleBrandChange}
+            className="px-4 py-2 border rounded w-full bg-white sm:w-1/2 lg:w-1/3"
+          >
+            <option value="">Select a brand</option>
+            <option value="Apple">Apple</option>
+            <option value="Samsung">Samsung</option>
+            <option value="Microsoft">Microsoft</option>
+            <option value="Vivo">Vivo</option>
+            <option value="Oppo">Oppo</option>
+            <option value="Logitech">Logitech</option>
+          </select>
           <select
             value={sortOrder}
             onChange={(e) => setSortOrder(e.target.value)}
-            className="px-4 py-2 border rounded bg-white w-full sm:w-1/4 lg:w-1/5"
+            className="px-4 py-2 border rounded bg-white w-full sm:w-1/2 lg:w-1/3"
           >
             <option value="asc">Sort by Price: Low to High</option>
             <option value="desc">Sort by Price: High to Low</option>
@@ -126,7 +146,7 @@ const BuyingCart = () => {
             {categories.map((cat, index) => (
               <Tab
                 key={index}
-                className={`px-4 py-2 bg-white text-black rounded-md border hover:bg-opacity-75 ${index === tabIndex ? 'bg-gray-200' : ''}`}
+                className={`px-4 lg:py-2 py-1 lg:my-0 my-2 bg-white text-black rounded-md border hover:bg-opacity-75 ${index === tabIndex ? 'bg-gray-200' : ''}`}
               >
                 {cat.charAt(0).toUpperCase() + cat.slice(1)}
               </Tab>
@@ -141,7 +161,7 @@ const BuyingCart = () => {
                     getPaginatedProducts(cat).map((item) => (
                       <ShopCard key={item._id} item={item} />
                     ))
-              ) : (
+                  ) : (
                     <div className="col-span-full text-center text-gray-600">
                       No data found
                     </div>
@@ -167,7 +187,8 @@ const BuyingCart = () => {
                         (!searchTerm ||
                           item.brand_name
                             ?.toLowerCase()
-                            .includes(searchTerm.toLowerCase()))
+                            .includes(searchTerm.toLowerCase())) &&
+                        (!selectedBrand || item.brand_name === selectedBrand)
                     ).length
                   }
                 >
