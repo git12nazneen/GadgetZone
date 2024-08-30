@@ -68,12 +68,12 @@ const AuthProvider = ({children}) => {
             setLoading(false)
             // if user exists then issue a token
             if(createUser){
-                axios.post( 'https://server-two-sage-80.vercel.app/jwt' ,loggedUser, {withCredentials: true})
+                axios.post( 'https://server-idrfits0y-nazneen-sultanas-projects.vercel.app/jwt' ,loggedUser, {withCredentials: true})
                 .then(res=>{
                     console.log('token response',res.data)
                 })
             }else{
-                axios.post('https://server-two-sage-80.vercel.app/logout', loggedUser, {
+                axios.post('https://server-idrfits0y-nazneen-sultanas-projects.vercel.app/logout', loggedUser, {
                     withCredentials: true
                 })
                 .then(res=> console.log(res.data))

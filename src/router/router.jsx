@@ -29,7 +29,7 @@ const router = createBrowserRouter([
         path: "/products/:id",
         element: <Card></Card>,
         loader: ({ params }) =>
-          fetch(`https://server-two-sage-80.vercel.app/products/${params.id}`),
+          fetch(`https://server-idrfits0y-nazneen-sultanas-projects.vercel.app/products/${params.id}`),
       },
       {
         path: "/buyingCart/category",

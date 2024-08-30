@@ -8,7 +8,7 @@ const useMenu = () => {
   } = useQuery({
     queryKey: ["products"],
     queryFn: async () => {
-      const res = await fetch("https://server-two-sage-80.vercel.app/products");
+      const res = await fetch("https://server-idrfits0y-nazneen-sultanas-projects.vercel.app/products");
       if (!res.ok) {
         throw new Error("Network response was not ok");
       }

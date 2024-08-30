@@ -29,7 +29,7 @@ const Login = () => {
     signIn(email, password);
     // 1
     axios
-      .post("https://server-two-sage-80.vercel.app/jwt", user, {
+      .post("https://server-idrfits0y-nazneen-sultanas-projects.vercel.app/jwt", user, {
         withCredentials: true,
       })
       .then((res) => {
@@ -57,7 +57,7 @@ const Login = () => {
 
           // Make the axios post request
           axios
-            .post("https://server-two-sage-80.vercel.app/jwt", user, {
+            .post("https://server-idrfits0y-nazneen-sultanas-projects.vercel.app/jwt", user, {
               withCredentials: true,
             })
             .then((res) => {
